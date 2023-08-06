@@ -1,0 +1,273 @@
+/* ================ VARIABLES ================ */
+:root {
+  --black: #111111;
+  --violet: #1e1823;
+  --gray: #4c4c4c;
+  --orange: #fd9222;
+  --beige: #fcf1e0;
+  --light: #fafafa;
+  --white: #fff;
+}
+/* ================ COMMON ================ */
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+/* ================ COMPONENTS ================ */
+.section-title {
+  color: var(--black);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+}
+/*-HEADER SECTION---------------------------------------*/
+.logo {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.54px;
+  margin-right: 365px;
+}
+.logo-pat {
+  font-style: italic;
+}
+.page-header {
+  display: flex;
+}
+.header-menu-link {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.28px;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--orange);
+}
+.header-menu {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.social-list {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+}
+.social-list-item {
+  border-radius: 10px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+}
+/*-HERO SECTION 1---------------------------------------*/
+.hero {
+  display: flex;
+  width: 1136px;
+  height: 600px;
+  padding: 381px 40px 40px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: rgba(17, 17, 17, 0.7);
+}
+.hero-title {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21; /* 121.429% */
+  letter-spacing: -0.84px;
+}
+.hero-wrapper {
+}
+
+.hero-button-buy {
+  color: var(--white);
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 100px;
+  background: var(--orange);
+}
+.hero-button-buy:hover,
+.hero-button-buy:focus {
+  color: var(--orange);
+  background: var(--beige);
+}
+.hero-howmade-link {
+  color: var(--white);
+  font-weight: 600;
+  line-height: normal;
+}
+.hero-scroll-link {
+  color: var(--white);
+  font-weight: 500;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.42px;
+}
+/*---------BENEFITS SECTION 2----------------------------------*/
+.benefits {
+  background: var(--violet);
+}
+.benefits-list-title {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+.benefits-list-text {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+/*---------INGRIDIENTS SECTION 3----------------------------------*/
+.ingridients-title-pat {
+  color: var(--orange);
+}
+.ingridients-list-title {
+  color: var(--white);
+  font-weight: 600;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+/*-----How it is made SECTION 4------------------------------*/
+.how-made-title-pat {
+  color: var(--orange);
+}
+.how-made-wrapper-title {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+.how-made-wrapper-list-text {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+}
+
+/*-----Our products SECTION 5------------------------------*/
+.products-title-pat {
+  color: var(--orange);
+}
+.products-list-title {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+}
+.products-list-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: -0.24px;
+}
+.products-list-text-uan {
+  color: var(--black);
+  font-weight: 600;
+  line-height: normal;
+}
+/*-----Top sellers SECTION 6------------------------------*/
+.top-sellers-title-pat {
+  color: var(--orange);
+}
+.top-sellers-list-title {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+}
+/*-----reviews SECTION 7------------------------------*/
+.reviews-title-pat {
+  color: var(--orange);
+}
+.reviews-list-title {
+  color: var(--black);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33; /* 133.333% */
+}
+.reviews-list-text {
+  color: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+.reviews-button {
+  width: 222px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid var(--orange);
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+.reviews-button:hover,
+.reviews-button:focus {
+  background: var(--orange);
+  color: var(--white);
+}
+/*-----FOOTER SECTION------------------------------*/
+.footer {
+  background: var(--violet);
+}
+.footer-title {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.56px;
+}
+.footer-title-pat {
+  color: var(--orange);
+}
+.social-networks-title {
+  color: var(--white);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.29; /* 128.571% */
+}
+.wrapper-contact-title {
+  color: var(--white);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.29; /* 128.571% */
+}
+.footer-address-list-link {
+  color: var(--white);
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.28px;
+}
+.footer-nav-link {
+  color: var(--white);
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.28px;
+}
