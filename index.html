@@ -28,17 +28,13 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         <nav class="page-nav">
           <a class="logo link" href="./index.html"
             ><span class="logo-pat">SIMPLY</span>&nbsp;CHOCOLATE
-            <img
-              class="logo-icon"
-              src="./images/chocolate.png"
-              alt="Chocolate bar"
-              width="24"
-              height="24"
-            />
+            <svg class="logo-icon" width="24" height="24" aria-label="Simply chocolate logo">
+              <use href="./images/icons.svg#icon-chocolate"></use>
+            </svg>
           </a>
           <ul class="header-menu list">
             <li class="header-menu-item">
-              <a class="header-menu-link link" href="#home">Home </a>
+              <a class="header-menu-link current link" href="#home">Home </a>
             </li>
             <li class="header-menu-item">
               <a class="header-menu-link link" href="#made">How it’s made? </a>
@@ -56,13 +52,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                class="social-list-icon"
-                src="./images/icons/facebook.svg"
-                alt="Facebook icon"
-                width="24"
-                height="24"
-              />
+              <svg class="social-list-icon" width="24" height="24" aria-label="Facebook icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
             </a>
           </li>
           <li class="social-list-item">
@@ -72,13 +64,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                class="social-list-icon"
-                src="./images/icons/instagram.svg"
-                alt="instagram icon"
-                width="24"
-                height="24"
-              />
+              <svg class="social-list-icon" width="24" height="24" aria-label="Instagram icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
             </a>
           </li>
           <li class="social-list-item">
@@ -88,13 +76,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                class="social-list-icon"
-                src="./images/icons/twitter.svg"
-                alt="twitter icon"
-                width="24"
-                height="24"
-              />
+              <svg class="social-list-icon" width="24" height="24" aria-label="Twitter icon">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
             </a>
           </li>
         </ul>
@@ -107,18 +91,14 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           Treat yourself or a loved one to our finest ingredients for a moment of pure delight!
         </h1>
         <div class="hero-wrapper">
-          <button class="hero-button-buy button" type="button">Buy now</button>
+          <button class="hero-button-buy button" type="button" data-modal-open>Buy now</button>
           <a class="hero-howmade-link link" href="#made">How it’s made</a>
           <a class="hero-scroll-link link" href=""
             >scroll down
             <span class="hero-btn-circle">
-              <img
-                class="hero-scroll-img"
-                src="./images/icons/Vector.svg"
-                alt="down icon"
-                width="22"
-                height="22"
-              />
+              <svg class="hero-scroll-img" width="22" height="22" aria-label="Down icon">
+                <use href="./images/icons.svg#icon-down"></use>
+              </svg>
             </span>
           </a>
         </div>
@@ -129,6 +109,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <h2 class="section-title visually-hidden">Benefits of our chocolate</h2>
           <ul class="benefits-list list">
             <li class="benefits-list-item">
+              <div class="benefits-list-wrapper">
+                <svg class="benefits-icon" width="32" height="32" aria-label="Benefit1 icon">
+                  <use href="./images/icons.svg#icon-benefit1"></use>
+                </svg>
+              </div>
               <h3 class="benefits-list-title">Unsurpassed taste</h3>
               <p class="benefits-list-text">
                 Crafted with the finest quality cocoa beans and a dedication to perfection, each
@@ -137,6 +122,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               </p>
             </li>
             <li class="benefits-list-item">
+              <div class="benefits-list-wrapper">
+                <svg class="benefits-icon" width="32" height="32" aria-label="S icon">
+                  <use href="./images/icons.svg#icon-s"></use>
+                </svg>
+              </div>
               <h3 class="benefits-list-title">Affordable price</h3>
               <p class="benefits-list-text">
                 Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's
@@ -146,6 +136,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               </p>
             </li>
             <li class="benefits-list-item">
+              <div class="benefits-list-wrapper">
+                <svg class="benefits-icon" width="32" height="32" aria-label="Spoon icon">
+                  <use href="./images/icons.svg#icon-spoon"></use>
+                </svg>
+              </div>
               <h3 class="benefits-list-title">Own production</h3>
               <p class="benefits-list-text">
                 We take pride in our own production process, ensuring that every step is carefully
@@ -165,6 +160,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           </h2>
           <ul class="ingridients-list list">
             <li class="ingridients-list-item">
+              <svg class="ingridients-list-icon" width="24" height="24" aria-label="Arrow icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingridients-list-img"
                 src="./images/img-1.png"
@@ -175,6 +173,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <h3 class="ingridients-list-title">MILK CHOCOLATE</h3>
             </li>
             <li class="ingridients-list-item">
+              <svg class="ingridients-list-icon" width="24" height="24" aria-label="Arrow icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingridients-list-img"
                 src="./images/img-2.png"
@@ -185,6 +186,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <h3 class="ingridients-list-title">MILK</h3>
             </li>
             <li class="ingridients-list-item">
+              <svg class="ingridients-list-icon" width="24" height="24" aria-label="Arrow icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingridients-list-img"
                 src="./images/img-3.png"
@@ -195,6 +199,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <h3 class="ingridients-list-title">NUTS</h3>
             </li>
             <li class="ingridients-list-item">
+              <svg class="ingridients-list-icon" width="24" height="24" aria-label="Arrow icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingridients-list-img"
                 src="./images/img-4.png"
@@ -205,6 +212,15 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <h3 class="ingridients-list-title">SEMI - SWEET CHOCOLATE</h3>
             </li>
             <li class="ingridients-list-item">
+              <svg
+                class="ingridients-list-icon"
+                width="24"
+                height="24"
+                aria-label="Arrow 
+icon"
+              >
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingridients-list-img"
                 src="./images/img-5.png"
@@ -215,6 +231,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <h3 class="ingridients-list-title">CACAO</h3>
             </li>
             <li class="ingridients-list-item">
+              <svg class="ingridients-list-icon" width="24" height="24" aria-label="Arrow icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingridients-list-img"
                 src="./images/img-6.png"
@@ -225,6 +244,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               <h3 class="ingridients-list-title">RASPBERRY</h3>
             </li>
             <li class="ingridients-list-item">
+              <svg class="ingridients-list-icon" width="24" height="24" aria-label="Arrow icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <img
                 class="ingridients-list-img"
                 src="./images/img-7.png"
@@ -243,13 +265,30 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <h2 class="section-title">How it’s <span class="how-made-title-pat">made</span>?</h2>
 
           <div class="how-made-container-wrapper">
-            <img
-              class="how-made-img"
-              src="./images/how.jpg"
-              alt="Hot black chocolate is whipped with a whisk."
-              width="600"
-              height="400"
-            />
+            <div class="how-made-img-wrapper">
+              <button class="made-btn" type="button">
+                <svg
+                  class="how-made-container-icon"
+                  width="44"
+                  height="44"
+                  aria-label="play
+icon"
+                >
+                  <use
+                    href="./images/icons.
+svg#icon-play"
+                  ></use>
+                </svg>
+              </button>
+              <img
+                class="how-made-img"
+                src="./images/how.jpg"
+                alt="Hot black chocolate is whipped with a whisk."
+                width="600"
+                height="400"
+              />
+            </div>
+
             <div class="how-made-wrapper">
               <h3 class="how-made-wrapper-title">
                 Try our chocolates today and discover the perfect balance of flavor
@@ -288,6 +327,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           </div>
         </div>
       </section>
+
       <!--Our products SECTION 5---------------------------------------------------->
       <section class="products section">
         <div class="container">
@@ -399,37 +439,64 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <ul class="top-sellers-list list">
             <li class="top-sellers-list-item">
               <figure class="top-sellers-list-wrapper">
-                <img
-                  class="top-sellers-list-img"
-                  src="./images/img-1-2.jpg"
-                  alt="CHOCOLATE WITH NUTS"
-                  width="368"
-                  height="464"
-                />
+                <div class="top-sellers-overlei-wrapper">
+                  <img
+                    class="top-sellers-list-img"
+                    src="./images/img-1-2.jpg"
+                    alt="CHOCOLATE WITH NUTS"
+                    width="368"
+                    height="464"
+                  />
+                  <div class="overlei">
+                    <p class="top-sellers-overlei-text">
+                      Chocolate with fruit is an unbeatable combination of two of the tastiest
+                      things in the world. This dessert combines delicate and aromatic chocolate
+                      with fresh and juicy fruits, creating a true poetry of taste.
+                    </p>
+                  </div>
+                </div>
                 <figcaption class="top-sellers-list-title">CHOCOLATE WITH NUTS</figcaption>
               </figure>
             </li>
             <li class="top-sellers-list-item">
               <figure class="top-sellers-list-wrapper">
-                <img
-                  class="top-sellers-list-img"
-                  src="./images/img-2-2.jpg"
-                  alt="CHOCOLATE WITH FRUITS"
-                  width="368"
-                  height="464"
-                />
+                <div class="top-sellers-overlei-wrapper">
+                  <img
+                    class="top-sellers-list-img"
+                    src="./images/img-2-2.jpg"
+                    alt="CHOCOLATE WITH FRUITS"
+                    width="368"
+                    height="464"
+                  />
+                  <div class="overlei">
+                    <p class="top-sellers-overlei-text">
+                      Chocolate with fruit is an unbeatable combination of two of the tastiest
+                      things in the world. This dessert combines delicate and aromatic chocolate
+                      with fresh and juicy fruits, creating a true poetry of taste.
+                    </p>
+                  </div>
+                </div>
                 <figcaption class="top-sellers-list-title">CHOCOLATE WITH FRUITS</figcaption>
               </figure>
             </li>
             <li class="top-sellers-list-item">
               <figure class="top-sellers-list-wrapper">
-                <img
-                  class="top-sellers-list-img"
-                  src="./images/img-3-2.jpg"
-                  alt="DARK CHOCOLATE"
-                  width="368"
-                  height="464"
-                />
+                <div class="top-sellers-overlei-wrapper">
+                  <img
+                    class="top-sellers-list-img"
+                    src="./images/img-3-2.jpg"
+                    alt="DARK CHOCOLATE"
+                    width="368"
+                    height="464"
+                  />
+                  <div class="overlei">
+                    <p class="top-sellers-overlei-text">
+                      Chocolate with fruit is an unbeatable combination of two of the tastiest
+                      things in the world. This dessert combines delicate and aromatic chocolate
+                      with fresh and juicy fruits, creating a true poetry of taste.
+                    </p>
+                  </div>
+                </div>
                 <figcaption class="top-sellers-list-title">DARK CHOCOLATE</figcaption>
               </figure>
             </li>
@@ -484,33 +551,57 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
           <div class="footer-right">
             <div class="footer-social-networks">
               <h3 class="social-networks-title">Social networks</h3>
-              <ul class="social-networks-list list">
-                <li class="social-networks-list-link">
-                  <img
-                    class="social-networks-list-img"
-                    src="./images/icons/instagram.svg"
-                    alt="instagram"
-                    width="24"
-                    height="24"
-                  />
+              <ul class="footer-social-networks-list list">
+                <li class="footer-social-networks-list-link">
+                  <a
+                    class="footer-social-list-link link"
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      class="footer-social-list-icon"
+                      width="24"
+                      height="24"
+                      aria-label="Facebook icon"
+                    >
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="social-networks-list-link">
-                  <img
-                    class="social-networks-list-img"
-                    src="./images/icons/facebook.svg"
-                    alt="instagram"
-                    width="24"
-                    height="24"
-                  />
+                <li class="footer-social-networks-list-link">
+                  <a
+                    class="footer-social-list-link link"
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      class="footer-social-list-icon"
+                      width="24"
+                      height="24"
+                      aria-label="Instagram icon"
+                    >
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="social-networks-list-link">
-                  <img
-                    class="social-networks-list-img"
-                    src="./images/icons/twitter.svg"
-                    alt="instagram"
-                    width="24"
-                    height="24"
-                  />
+                <li class="footer-social-networks-list-link">
+                  <a
+                    class="footer-social-list-link link"
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg
+                      class="footer-social-list-icon"
+                      width="24"
+                      height="24"
+                      aria-label="Twitter icon"
+                    >
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -550,5 +641,16 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
         </div>
       </div>
     </footer>
+    <!--modal-windiw------------------------------------->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-windiw">
+        <button class="modal-close-btn" tupe="button" data-modal-close>
+          <svg class="modal-close-btn-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
